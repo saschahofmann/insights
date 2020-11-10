@@ -1,9 +1,12 @@
 name: insights
 channels:
   - conda-forge
+  - fastai
 dependencies:
   - python=3.8
   - pip
   - jupyter
+  - sk-video
+  - fastai
   - pip:
       - nbdev
